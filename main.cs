@@ -11,13 +11,16 @@ class Program {
         Console.Write("Count will not be increased if you say no\n");
         Console.Write("Please enter the answer : "); answer= Console.ReadLine();
 
-        if (answer == "yes") {
+        if (answer == "yes")
+        {
             count = count + 1;
             Console.Write("\nYou answered yes\n");
-        } else {
+        }
+        else
+        {
             Console.Write("\nYou answered no\n");
         }
-      
+
         await File.WriteAllTextAsync("Text.txt", count);
         Console.WriteLine("The count is : " + count);
     }
