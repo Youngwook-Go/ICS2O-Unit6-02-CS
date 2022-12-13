@@ -10,7 +10,7 @@ class Program
         string answer;
         Console.Write("Count will be increased if you say yes\n");
         Console.Write("Count will not be increased if you say no\n");
-        Console.Write("Please enter the answer : "); answer= Console.ReadLine();
+        Console.Write("Please enter the answer : "); answer = Console.ReadLine();
 
         if (answer == "yes")
         {
