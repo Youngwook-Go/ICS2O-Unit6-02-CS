@@ -2,8 +2,9 @@ using System;
 using System.Threading.Tasks;
 using System.IO;
 
-class Program {
-  public static async Task Main()
+class Program
+{
+    public static async Task Main()
     {
         var count = await File.ReadAllTextAsync(@"Text.txt");
         string answer;
