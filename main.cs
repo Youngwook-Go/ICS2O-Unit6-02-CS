@@ -13,7 +13,7 @@ class Program {
 
         if (answer == "yes")
         {
-            count = count + 1;
+            count = count + " + 1";
             Console.Write("\nYou answered yes\n");
         }
         else
